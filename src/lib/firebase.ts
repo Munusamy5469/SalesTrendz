@@ -3,12 +3,12 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDzhfJjqsopUDvF5XAOI8W4ROo-WVOsAPw",
-  authDomain: "salestrendz-da203.firebaseapp.com",
-  projectId: "salestrendz-da203",
-  storageBucket: "salestrendz-da203.firebasestorage.app",
-  messagingSenderId: "584540165625",
-  appId: "1:584540165625:web:29ee0897b09a2664cc1928"
+  apiKey: "AIzaSyA_QpjSHugeqHKviXgxyYCeFtegj8LfzCg",
+  authDomain: "salestrendz-bd3ec.firebaseapp.com",
+  projectId: "salestrendz-bd3ec",
+  storageBucket: "salestrendz-bd3ec.firebasestorage.app",
+  messagingSenderId: "837703622524",
+  appId: "1:837703622524:web:d7c9b327faffd24ab6cef9"
 };
 
 const app = initializeApp(firebaseConfig);
