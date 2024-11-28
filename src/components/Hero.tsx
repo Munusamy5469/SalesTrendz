@@ -13,7 +13,7 @@ export default function Hero() {
             <div>
               <div className="mt-6">
                 <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
-                  <span className="block"></span>
+                  <span className="block">Empowering Shop Owners</span>
                   <span className="block text-indigo-600">with Data-Driven Insights</span>
                 </h1>
                 <p className="mt-6 text-xl text-gray-500">
