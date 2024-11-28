@@ -10,6 +10,7 @@ import Profile from './pages/Profile';
 import Analytics from './pages/Analytics';
 import Forecast from './pages/Forecast';
 import SalesManagement from './pages/SalesManagement';
+import Chatbot from './components/Chatbot';
 import { auth } from './lib/firebase'; // Firebase auth import
 
 function App() {
@@ -100,6 +101,7 @@ function App() {
         {/* Default route to home for unmatched routes */}
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
+      {user && <Chatbot />}
     </Router>
   );
 }
